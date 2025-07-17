@@ -8,8 +8,8 @@ const member = getQueryParam('member');
 
 if (location.pathname.includes("member.html") && member) {
   document.getElementById("member-name").textContent = member;
-  document.getElementById("profile-img").src = `images/${member}_profile.jpeg`;
-  document.getElementById("background-img").src = `images/${member}_background.jpeg`;
+  document.getElementById("profile-img").src = `images/${member}_profile.jpg`;
+  document.getElementById("background-img").src = `images/${member}_background.jpg`;
 }
 
 function goToChat() {
