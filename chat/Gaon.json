@@ -1,0 +1,5 @@
+[
+  { "sender": "member", "message": "안녕! 오늘 하루 어땠어?" },
+  { "sender": "me", "message": "좋았어! 너는?" },
+  { "sender": "member", "message": "나도 좋았어~" }
+]
