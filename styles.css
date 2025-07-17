@@ -1,32 +1,16 @@
 body {
   font-family: sans-serif;
-  background: white;
-  color: #333;
-}
-
-.member-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
-
-.member-card {
   text-align: center;
-  text-decoration: none;
-  color: inherit;
 }
 
-.member-card img {
-  width: 120px;
-  height: 120px;
+.member-list img {
+  width: 100px;
+  margin: 10px;
   border-radius: 50%;
-  border: 3px solid #007BFF;
 }
 
-.profile-header {
+.profile-section {
   position: relative;
-  text-align: center;
 }
 
 .background-img {
@@ -36,31 +20,28 @@ body {
 }
 
 .profile-img {
-  width: 120px;
-  height: 120px;
+  width: 150px;
   border-radius: 50%;
-  border: 3px solid white;
-  position: absolute;
-  bottom: -60px;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-top: -75px;
+  border: 5px solid white;
 }
 
-.chat-bubble {
-  max-width: 70%;
-  margin: 10px auto;
-  padding: 10px;
-  border-radius: 20px;
-  line-height: 1.4;
+.chat-container {
+  padding: 20px;
 }
 
-.from-idol {
-  background: #007BFF;
-  color: white;
-  align-self: flex-start;
+.chat-box {
+  margin-top: 20px;
+  text-align: left;
 }
 
-.from-user {
-  background: #e0e0e0;
-  align-self: flex-end;
+.chat-box .member {
+  color: blue;
+  margin: 5px 0;
+}
+
+.chat-box .me {
+  color: green;
+  text-align: right;
+  margin: 5px 0;
 }
