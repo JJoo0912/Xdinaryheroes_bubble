@@ -3,23 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Ode</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="profile-header">
-    <img src="images/gonil-bg.jpg" class="background-img">
-    <img src="images/gonil-profile.jpg" class="profile-img">
-    <h2>오드</h2>
+  <div id="profile-section" class="profile-section">
+    <img id="background-img" class="background-img">
+    <img id="profile-img" class="profile-img">
+    <h2 id="member-name"></h2>
+    <button onclick="goToChat()">💬 채팅 보기</button>
   </div>
-
-  <button onclick="document.getElementById('chat-area').style.display='block'">
-    Chat
-  </button>
-
-  <div id="chat-area" style="display:none;">
-    <div class="chat-bubble from-idol">오늘 뭐 했어?</div>
-    <div class="chat-bubble from-user">학교 갔다왔어~</div>
-    <!-- 여기에 채팅 계속 추가 -->
-  </div>
+  <script src="script.js"></script>
 </body>
 </html>
